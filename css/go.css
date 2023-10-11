@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("/images/sorry-sign-clipped-760.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.glorry{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   backdrop-filter: blur(5px);
+}
+h2{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    color: #793209;
+}
+p{
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 25px;
+    padding: 0 10px;
+    color: rgb(249, 245, 245);
+}
+a, a:hover, a:active, a:visited, a::before{
+    text-decoration: none;
+}
+a, button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    color: aliceblue;
+    background: #793209;
+    padding: 20px;
+    border: solid yellowgreen;
+    border-radius: 30px;
+}

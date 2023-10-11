@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paymennt options</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    <link rel="stylesheet" href="./css/dash.css">
+    <style type="text/css">
+
+        
+		a{
+			font-weight: 700;
+		}
+	</style>
+
+    <script>
+        function alertUser(msg) {
+        alert(msg);
+        }
+        </script>
+        
+</head>
+<body>
+    
+    <!-- this is the payment  page for our website and in this page we used some other property of some other website  -->
+
+    <div class="circle"></div>
+    <div class="sidebar">
+        <div class="logo"></div>
+        <ul class="menu">
+            <li>
+                <a href="dashboard.html" title="DASHBOARD">
+                    <i class="fas fa-tachometer"></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>           
+             <li>
+                <a href="profile.html" title="PROFILE">
+                    <i class="fas fa-user"></i>
+                    <span>Profile</span>
+                </a>
+            </li>          
+            <li>
+                <a href="#" title="CONTACT US">
+                    <i class="fas fa-question-circle"></i>
+                    <span>Contact us</span>
+                </a>
+            </li>
+             <li class="active">
+                <a href="payment.html" title="TOP UP">
+                    <i class="fa-solid fa-plus"></i>
+                    <span>Top Up</span>
+                </a>
+            </li>
+            <li class="logout">
+                <a href="login.html" title="LOG OUT" onclick="alertUser('cant log out now please try again later')">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span>Log out</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- this is the begining of the main content -->
+    <div class="main--content">
+        <div class="header--wrapper">
+            <div class="header--title">
+                <span>MAX-EARNER</span>
+                <h2>Welcome</h2>
+            </div>
+            <div class="user--info">
+                <div class="search--box">
+                    <i class="fa-solid fa-search"></i>
+                <input type="text" placeholder="search">
+                </div>
+                <img src="./images/profile1.jpg" alt="your profile picture">
+            </div>
+        </div>
+
+        <div class="card-container" >
+            <div class="main--title">Today's Data</div>
+            <div class="card--wrapper">
+
+
+<!-- 
+<div class="grid bg-black p-2">
+      <div class="row">
+<div class="col-sm-6 mb-3 mb-sm-0">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">SAFE PAYMENT POWERED BY SHAY PAYs</h5>
+      <p class="card-text">COPY THIS ACCOUNT NUMBER AND MAKE YOUR PAYMENT!!</p>
+      <p class="card-text"><span>
+        ACCOUNT NUMBER: 0828272727
+      </span><br> <span>
+        ACCOUNT OWNERSHIP NAME:
+      </span><br>
+     <span>BANK NAME:</span>
+   </p>
+
+      <a href="user.html" class="btn btn-primary">I HAVE PAID</a>
+    </div>
+  </div>
+</div> -->
+<div class="payment--card2" >
+  <div class="card text-center">
+    <div class="card-body">
+      <span class="later">SAFE PAYMENT POWERED BY SHAY PAYS</span><br><br><br>
+      <p class="amount--value">COPY THIS ACCOUNT NUMBER AND MAKE YOUR PAYMENT!!</p><br><br>
+      <p class="card-text"><span class="fire">
+        ACCOUNT NUMBER: 7086580976
+      </span><br> <span class="fire">
+        ACCOUNT OWNERSHIP NAME: HERIS BRENDA
+      </span><br>
+     <span class="light--purple">BANK NAME:</span><span class="fire"> PALMPAY</span>
+   </p><br>
+   <input type="text" value="7086580976" id="myInput">
+<button onclick="myFunction()" class="coppy">Copy </button>
+   <div class="clever">
+    <label for="inputTag" >
+     <span class="jovia">Upload your Reciept</span>  <br/>
+      <i class="fa fa-2x fa-camera"></i><br>
+      <input id="inputTag" type="file"/>
+      <br/>
+      <span id="imageName"></span>
+    </label>
+    <a href="dashboard.html" ><button class="paid">I HAVE PAID</button></a>
+  </div>
+     
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<script>
+  function myFunction() {
+    // Get the text field
+    var copyText = document.getElementById("myInput");
+  
+    // Select the text field
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); // For mobile devices
+  
+    // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+    
+    // Alert the copied text
+    alert("Copied Account Number: " + copyText.value);
+  }
+  </script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    </body>
+</html>

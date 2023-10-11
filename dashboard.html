@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DASHBOARD</title>
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/dash.css">
+<link rel="shortcut icon" type="image/jpg" href="images/profile1.jpg">
+</head>
+<body>
+    <div class="circle"></div>
+    <div class="sidebar">
+        <div class="logo"></div>
+        <ul class="menu">
+            <li class="active">
+                <a href="#" title="DASHBOARD">
+                    <i class="fas fa-tachometer"></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>           
+             <li>
+                <a href="profile.html" title="PROFILE">
+                    <i class="fas fa-user"></i>
+                    <span>Profile</span>
+                </a>
+            </li>          
+            <li>
+                <a href="#" title="CONTACT US">
+                    <i class="fas fa-question-circle"></i>
+                    <span>Contact us</span>
+                </a>
+            </li>
+            <li class="logout">
+                <a href="login.html" title="LOG OUT">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span>Log out</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- this is the begining of the main content -->
+    <div class="main--content">
+        <div class="header--wrapper">
+            <div class="header--title">
+                <span>MAX-EARNER</span>
+                <h2>Dashboard</h2>
+            </div>
+            <div class="user--info">
+                <div class="search--box">
+                    <i class="fa-solid fa-search"></i>
+                <input type="text" placeholder="search">
+                </div>
+                <img src="./images/profile1.jpg" alt="your profile picture">
+            </div>
+        </div>
+
+        <div class="card-container" >
+            <div class="main--title">Today's Data</div>
+            <div class="card--wrapper">
+                <div class="payment--card dark--green">
+                    <div class="card--header">
+                        <div class="card--amount">
+                            <span class="title later">MAIN BALANCE  </span><br>
+                            <span class="amount--value">&#8358;</span>
+                            <span class="amount--value" id="counter"></span>
+                        </div>
+                        <i class="fas fa-naira-sign icon"></i>
+                    </div>
+                    <span class="user--detail">**** **** **** 2000</span>
+                </div>
+                <a href="withdraw.html" class="no-line">
+                    <div class="payment--card light--red" ro>
+                        <div class="card--header">
+                            <div class="card--amount">
+                                <span class="title later">WITHDRAW</span>
+                                <span class="amount--value"></span>
+                            </div>
+                            <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                        </div>
+                        <span class="user--detail"></span>
+                    </div>
+                </a>
+                <a href="addmoney.html" class="no-line">
+                    <div class="payment--card light--blue">
+                        <div class="card--header">
+                            <div class="card--amount">
+                                <span class="title later">ADD MONEY</span>
+                                <span class="amount--value"></span>
+                            </div>
+                            <!--  -->
+                            <i class="fas fa-solid fa-plus icon"></i>
+                        </div>
+                        <span class="user--detail">**** **** **** 2000</span>
+                    </div>
+                </a>
+                <a href="invest.html" class="no-line">
+                    <div class="payment--card light--green">
+                        <div class="card--header">
+                            <div class="card--amount">
+                                <span class="title">OFFER 1 OF 1</span>
+                                <span class="amount--value">&#8358;2500.00</span>
+                            </div>
+                            <i class="fas fa-naira-sign icon"></i>
+                        </div>
+                        <span class="user--detail">daily profit &#8358;250</span>
+                    </div>
+                </a>
+                <a href="invest.html" class="no-line">
+                    <div class="payment--card light--green">
+                        <div class="card--header">
+                            <div class="card--amount">
+                                <span class="title">OFFER 1 OF 2</span>
+                                <span class="amount--value">&#8358;5000.00</span>
+                            </div>
+                            <i class="fas fa-naira-sign icon"></i>
+                        </div>
+                        <span class="user--detail">daily profit &#8358;500</span>
+                    </div>
+                </a>
+                <a href="invest.html" class="no-line">
+                    <div class="payment--card light--green">
+                        <div class="card--header">
+                            <div class="card--amount">
+                                <span class="title">OFFER 1 OF 3</span>
+                                <span class="amount--value">&#8358;7500.00</span>
+                            </div>
+                            <i class="fas fa-naira-sign icon"></i>
+                        </div>
+                        <span class="user--detail">daily profit &#8358;1000</span>
+                    </div>
+                </a>
+                <a href="invest.html" class="no-line">
+                    <div class="payment--card light--green">
+                        <div class="card--header">
+                            <div class="card--amount">
+                                <span class="title">OFFER 1 OF 4</span>
+                                <span class="amount--value">&#8358;10000.00</span>
+                            </div>
+                            <i class="fas fa-naira-sign icon"></i>
+                        </div>
+                        <span class="user--detail">daily profit &#8358;1500</span>
+                    </div>
+                </a>
+                <a href="invest.html" class="no-line">
+                    <div class="payment--card light--green">
+                        <div class="card--header">
+                            <div class="card--amount">
+                                <span class="title">OFFER 1 OF 5</span>
+                                <span class="amount--value">&#8358;15000.00</span>
+                            </div>
+                            <i class="fas fa-naira-sign icon"></i>
+                        </div>
+                        <span class="user--detail">daily profit &#8358;2000</span>
+                    </div>
+                </a>
+                <a href="invest.html" class="no-line">
+                    <div class="payment--card light--green">
+                        <div class="card--header">
+                            <div class="card--amount">
+                                <span class="title">OFFER 1 OF 6</span>
+                                <span class="amount--value">&#8358;20000.00</span>
+                            </div>
+                            <i class="fas fa-naira-sign icon"></i>
+                        </div>
+                        <span class="user--detail">daily profit &#8358;3000</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- this is where i set the counter varaiable -->
+    <script>
+        let counts = setInterval(updated);
+        let upto = 0;
+        function updated() {
+            let count = document.getElementById("counter");
+            count.innerHTML = ++upto;
+            if (upto === 500) {
+                clearInterval(counts);
+            }
+        }
+    </script>
+</body>
+</html>
