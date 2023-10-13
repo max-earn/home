@@ -12,10 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("./images/background.jpg") no-repeat;
-    background-position: center;
-    background-size: cover;
-    
+    background: url("");
 }
 form{
     position: relative;
