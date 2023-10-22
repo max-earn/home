@@ -1,170 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>INVEST NOW</title>
     <!-- font awesome cdn link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/dash.css">
-   
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/dash.css" />
+  </head>
+  <body>
     <div class="circle"></div>
     <div class="sidebar">
-        <div class="logo"></div>
-        <ul class="menu">
-            <li class="">
-                <a href="dashboard.html" title="DASHBOARD">
-                    <i class="fas fa-tachometer"></i>
-                    <span>Dashboard</span>
-                </a>
-            </li>           
-             <li>
-                <a href="profile.html" title="PROFILE">
-                    <i class="fas fa-user"></i>
-                    <span>Profile</span>
-                </a>
-            </li> 
-            <li class="active">
-                <a href="invest.html" title="INVEST NOW">
-                    <i class="fas fa-user"></i>
-                    <span>Invest</span>
-                </a>
-            </li>          
-            <li>
-                <a href="#" title="CONTACT US">
-                    <i class="fas fa-question-circle"></i>
-                    <span>Contact us</span>
-                </a>
-            </li>
-            <li class="logout">
-                <a href="login.html" title="LOG OUT">
-                    <i class="fas fa-sign-out-alt"></i>
-                    <span>Log out</span>
-                </a>
-            </li>
-        </ul>
+      <div class="logo"></div>
+      <ul class="menu">
+        <li class="">
+          <a href="dashboard.html" title="DASHBOARD">
+            <i class="fas fa-tachometer"></i>
+            <span>Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="profile.html" title="PROFILE">
+            <i class="fas fa-user"></i>
+            <span>Profile</span>
+          </a>
+        </li>
+        <li class="active">
+          <a href="invest.html" title="INVEST NOW">
+            <i class="fas fa-user"></i>
+            <span>Invest</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" title="CONTACT US">
+            <i class="fas fa-question-circle"></i>
+            <span>Contact us</span>
+          </a>
+        </li>
+        <li class="logout">
+          <a href="login.html" title="LOG OUT">
+            <i class="fas fa-sign-out-alt"></i>
+            <span>Log out</span>
+          </a>
+        </li>
+      </ul>
     </div>
 
     <!-- this is the begining of the main content -->
     <div class="main--content">
-        <div class="header--wrapper">
-            <div class="header--title">
-                <span>MAIN</span>
-                <h2>Investment</h2>
-            </div>
-            <div class="user--info">
-                <div class="search--box">
-                    <i class="fa-solid fa-search"></i>
-                <input type="text" placeholder="search">
-                </div>
-                <img src="./images/profile1.jpg" alt="your profile picture">
-            </div>
+      <div class="header--wrapper">
+        <div class="header--title">
+          <span>MAIN</span>
+          <h2>Investment</h2>
         </div>
-
-        <div class="card-container" >
-            <div class="main--title">Today's Investment</div>
-            <div class="card--wrapper">
-                <div class="payment--card dark--green">
-                    <div class="card--header">
-                        <div class="card--amount">
-                            <span class="title later">MAIN BALANCE  </span><br>
-                            <span class="amount--value">₦</span>
-                            <span class="amount--value" id="counter"></span>
-                        </div>
-                        <i class="fas fa-naira-sign icon2"></i>
-                    </div>
-                    <span class="user--detail">**** **** ****</span>
-                </div>
-
-                <a href="payment.html" class="no-line">
-                    <div class="payment--card dark--yellow">
-                        <div class="card--header">
-                            <div class="card--amount">
-                                <span class="title"></span>
-                                <span class="amount--value">₦2500.00</span>
-                            </div>
-                            <i class="fas fa-naira-sign icon2"></i>
-                        </div>
-                        <span class="user--detail"></span>
-                    </div>
-                </a>
-                <a href="payment.html" class="no-line">
-                    <div class="payment--card dark--yellow">
-                        <div class="card--header">
-                            <div class="card--amount">
-                                <span class="title"></span>
-                                <span class="amount--value">₦5000.00</span>
-                            </div>
-                            <i class="fas fa-naira-sign icon2"></i>
-                        </div>
-                        <span class="user--detail"></span>
-                    </div>
-                </a>
-                <a href="payment.html" class="no-line">
-                    <div class="payment--card dark--yellow">
-                        <div class="card--header">
-                            <div class="card--amount">
-                                <span class="title"> </span>
-                                <span class="amount--value">₦7500.00</span>
-                            </div>
-                            <i class="fas fa-naira-sign icon2"></i>
-                        </div>
-                        <span class="user--detail"></span>
-                    </div>
-                </a>
-                <a href="payment.html" class="no-line">
-                    <div class="payment--card dark--yellow">
-                        <div class="card--header">
-                            <div class="card--amount">
-                                <span class="title"></span>
-                                <span class="amount--value">₦10000.00</span>
-                            </div>
-                            <i class="fas fa-naira-sign icon2"></i>
-                        </div>
-                        <span class="user--detail"></span>
-                    </div>
-                </a>
-                <a href="payment.html" class="no-line">
-                    <div class="payment--card dark--yellow">
-                        <div class="card--header">
-                            <div class="card--amount">
-                                <span class="title"></span>
-                                <span class="amount--value">₦15000.00</span>
-                            </div>
-                            <i class="fas fa-naira-sign icon2"></i>
-                        </div>
-                        <span class="user--detail"></span>
-                    </div>
-                </a>
-                <a href="payment.html" class="no-line">
-                    <div class="payment--card dark--yellow">
-                        <div class="card--header">
-                            <div class="card--amount">
-                                <span class="title"></span>
-                                <span class="amount--value">₦20000.00</span>
-                            </div>
-                            <i class="fas fa-naira-sign icon2"></i>
-                        </div>
-                        <span class="user--detail"></span>
-                    </div>
-                </a>
-            </div>
+        <div class="user--info">
+          <div class="search--box">
+            <i class="fa-solid fa-search"></i>
+            <input type="text" placeholder="search" />
+          </div>
+          <img src="./images/profile1.jpg" alt="your profile picture" />
         </div>
+      </div>
+
+      <div class="card-container">
+        <div class="main--title">Today's Investment</div>
+        <div class="card--wrapper">
+          <div class="payment--card dark--green">
+            <div class="card--header">
+              <div class="card--amount">
+                <span class="title later">MAIN BALANCE </span><br />
+                <span class="amount--value">₦</span>
+                <span class="amount--value" id="counter"></span>
+              </div>
+              <i class="fas fa-naira-sign icon2"></i>
+            </div>
+            <span class="user--detail">**** **** ****</span>
+          </div>
+
+          <a href="payment.html" class="no-line">
+            <div class="payment--card dark--yellow">
+              <div class="card--header">
+                <div class="card--amount">
+                  <span class="title"></span>
+                  <span class="amount--value">₦2500.00</span>
+                </div>
+                <i class="fas fa-naira-sign icon2"></i>
+              </div>
+              <span class="user--detail"></span>
+            </div>
+          </a>
+          <a href="payment.html" class="no-line">
+            <div class="payment--card dark--yellow">
+              <div class="card--header">
+                <div class="card--amount">
+                  <span class="title"></span>
+                  <span class="amount--value">₦5000.00</span>
+                </div>
+                <i class="fas fa-naira-sign icon2"></i>
+              </div>
+              <span class="user--detail"></span>
+            </div>
+          </a>
+          <a href="payment.html" class="no-line">
+            <div class="payment--card dark--yellow">
+              <div class="card--header">
+                <div class="card--amount">
+                  <span class="title"> </span>
+                  <span class="amount--value">₦7500.00</span>
+                </div>
+                <i class="fas fa-naira-sign icon2"></i>
+              </div>
+              <span class="user--detail"></span>
+            </div>
+          </a>
+          <a href="payment.html" class="no-line">
+            <div class="payment--card dark--yellow">
+              <div class="card--header">
+                <div class="card--amount">
+                  <span class="title"></span>
+                  <span class="amount--value">₦10000.00</span>
+                </div>
+                <i class="fas fa-naira-sign icon2"></i>
+              </div>
+              <span class="user--detail"></span>
+            </div>
+          </a>
+          <a href="payment.html" class="no-line">
+            <div class="payment--card dark--yellow">
+              <div class="card--header">
+                <div class="card--amount">
+                  <span class="title"></span>
+                  <span class="amount--value">₦15000.00</span>
+                </div>
+                <i class="fas fa-naira-sign icon2"></i>
+              </div>
+              <span class="user--detail"></span>
+            </div>
+          </a>
+          <a href="payment.html" class="no-line">
+            <div class="payment--card dark--yellow">
+              <div class="card--header">
+                <div class="card--amount">
+                  <span class="title"></span>
+                  <span class="amount--value">₦20000.00</span>
+                </div>
+                <i class="fas fa-naira-sign icon2"></i>
+              </div>
+              <span class="user--detail"></span>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
-    
+
     <!-- this is where i set the counter varaiable -->
     <script>
-        let counts = setInterval(updated);
-        let upto = 0;
-        function updated() {
-            let count = document.getElementById("counter");
-            count.innerHTML = ++upto;
-            if (upto === 1000) {
-                clearInterval(counts);
-            }
+      let counts = setInterval(updated);
+      let upto = 0;
+      function updated() {
+        let count = document.getElementById("counter");
+        count.innerHTML = ++upto;
+        if (upto === 2000) {
+          clearInterval(counts);
         }
+      }
     </script>
-</body>
+  </body>
 </html>
