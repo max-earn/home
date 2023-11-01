@@ -13,7 +13,7 @@ body {
 nav {
   /* border: 1px solid #333;
   margin: 1rem auto; */
-  background-image: url("/images/nav-background.jpg");
+  background-color: #070a08;
   /* border-top: 3px solid #00bff3;
   border-bottom: 3px solid #00bff3; */
   /* styling to position the navbar off the the page so that the close button and the open button can work properly */
@@ -67,7 +67,7 @@ nav a:hover {
   color: #ff583d;
 }
 .active {
-  color: #ff583d;
+  color: #ee4025;
   background-color: #b5e0eb;
 }
 .active:hover {
@@ -120,6 +120,9 @@ button {
   text-align: center;
   cursor: pointer;
 }
+nav ul li a i:hover {
+  color: #fff;
+}
 .close a:hover {
   display: flex;
   color: #82f300;
@@ -147,7 +150,7 @@ nav ul ul a {
 @media (min-width: 750px) {
   header {
     margin: 1rem auto;
-    background-image: url("/images/nav-background.jpg");
+    background-color: #070a08;
   }
   nav {
     border: 1px solid #333;

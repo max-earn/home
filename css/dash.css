@@ -386,3 +386,6 @@ label {
   background: #f6fb82;
   font-weight: 900;
 }
+nav ul li a i:hover {
+  color: #fff;
+}
