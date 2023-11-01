@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DASHBOARD</title>
-    <!-- font awesome cdn link -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="css/dash.css" />
-    <link rel="shortcut icon" type="image/jpg" href="images/profile1.jpg" />
-  </head>
-  <body>
-    <div class="circle"></div>
-    <div class="sidebar">
-      <div class="logo"></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DASHBOARD</title>
+  <!-- font awesome cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/dash.css" />
+  <link rel="stylesheet" href="css/style3.css">
+  <link rel="shortcut icon" type="image/jpg" href="images/profile1.jpg" />
+</head>
+
+<body>
+
+  <a class="hamburger" href="#nav-bar">MENU</a>
+  <header class="header">
+    <nav id="nav-bar">
       <ul class="menu">
         <li class="active">
           <a href="#" title="DASHBOARD">
@@ -45,26 +45,29 @@
           </a>
         </li>
       </ul>
-    </div>
+      <i class="close"><a href="#">close</a></i>
+    </nav>
+  </header>
 
-    <!-- this is the begining of the main content -->
-    <div class="main--content">
-      <div class="header--wrapper">
-        <div class="header--title">
-          <span>MAX-EARNER</span>
-          <h2>Dashboard</h2>
-        </div>
-        <div class="user--info">
-          <div class="search--box">
-            <i class="fa-solid fa-search"></i>
-            <input type="text" placeholder="search" />
-          </div>
-          <img src="./images/profile1.jpg" alt="your profile picture" />
-        </div>
+  <!-- this is the begining of the main content -->
+  <br>
+  <div class="main--content">
+    <div class="header--wrapper">
+      <div class="header--title">
+        <span class="myColor attack">MAX-EARNER</span>
+        <h2 class="myColor">Dashboard</h2>
       </div>
+      <!-- <div class="user--info">
+        <div class="search--box">
+          <i class="fa-solid fa-search"></i>
+          <input type="text" placeholder="search" />
+        </div>
+        <img src="./images/profile1.jpg" alt="your profile picture" />
+      </div>
+    </div> -->
 
       <div class="card-container">
-        <div class="main--title">Today's Data</div>
+        <div class="main--title attack myColor">Today's Data</div>
         <div class="card--wrapper">
           <div class="payment--card dark--green">
             <div class="card--header">
@@ -75,7 +78,7 @@
               </div>
               <i class="fas fa-naira-sign icon"></i>
             </div>
-            <span class="user--detail">**** **** ****</span>
+            <span class="user--detail">**** **** </span>
           </div>
           <a href="withdraw.html" class="no-line">
             <div class="payment--card light--red" ro>
@@ -190,5 +193,6 @@
         }
       }
     </script>
-  </body>
+</body>
+
 </html>
