@@ -8,6 +8,9 @@
   box-sizing: border-box;
   font-family: "Poppings", sans-serif;
 }
+html {
+  font-size: 16px;
+}
 /* end of styling with the parent element HTML */
 /* body styling  */
 /* .circle { 
