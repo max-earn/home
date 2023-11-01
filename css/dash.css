@@ -11,10 +11,7 @@
 }
 /* end of styling with the parent element HTML */
 /* body styling  */
-body{
-    display: flex;
-}
-.circle { 
+/* .circle { 
     position: absolute; 
     top: 40%; 
     left: 50%; 
@@ -39,7 +36,7 @@ body{
 } 
 /* end of body styling */
 /* styling for the sidebar menu */
-.sidebar{
+/* .sidebar{
     position: relative;
     top: 0;
     left: 0;
@@ -50,12 +47,12 @@ body{
     overflow: hidden;
     transition: all 0.5s linear;
     background: rgba(113, 99, 186, 255);
-}
-.sidebar:hover{
+} */
+/* .sidebar:hover{
     width: 240px;
     transition: 0.5s;
-}
-.logo{
+} */
+/* .logo{
     height: 80px;
     padding: 16px;
 }
@@ -96,12 +93,12 @@ body{
     left: 0;
     width: 100%;
 
-}
+} */ 
 
 /* main body section */
 .main--content{
     position: relative;
-    background: #ebe9e9;
+    background: #000000;
     width: 100%;
     padding: 1rem;
 
@@ -118,7 +115,7 @@ body{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    background: #fff;
+    background: #000000;
     border-radius: 10px;
     padding: 10px 2rem;
     margin-bottom: 1rem;
@@ -159,7 +156,7 @@ body{
 
 /* card container stylings for the main content */
 .card-container{
-    background: #e7e2e2;
+    background: #000000;
     padding: 2rem;
     border-radius: 10px;
 }
@@ -176,9 +173,9 @@ body{
 }
 .payment--card{
     background: rgb(214, 200, 72);
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 1.2rem;
-    width:250px;
+    width:200px;
     height: 150px;
     flex-direction: column;
     justify-content: space-between;
